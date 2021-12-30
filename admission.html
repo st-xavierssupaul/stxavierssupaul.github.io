@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>St.Xavier's High School, Supaul</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"><img src="st.png.jpg" class="w3-circle" alt="Alps" height="50" width="50" align="left"></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Acadmy</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="message">Message<i class="fa fa-caret-down"></i></button> 
+      <div class="w3-dropdown-content w3-bar-block w3-card-2">
+      <a href="priniceple.html" class="w3-bar-item w3-button">Principal Message</a>
+      <a href="message.html" class="w3-bar-item w3-button">Message</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">Public Manadatry Disclosure<i class="fa fa-caret-down"></i></button>   
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="SELF-CERTIFICATE-CBSE.pdf" class="w3-bar-item w3-button">SELF CERTIFICATE CBSE</a>
+      <a href="AFFIDAVIT.pdf" class="w3-bar-item w3-button">AFFILDAVIt</a>
+      <a href="Trust-Deed.pdf" class="w3-bar-item w3-button">Trust Deed</a>
+      <a href="NOC.pdf" class="w3-bar-item w3-button">NO OBJECTION CERTIFICATE</a>
+      <a href="affiliation-grant-letter.pdf" class="w3-bar-item w3-button">Grant Letter</a>
+      <a href="LAND-CERTIFICATE.pdf" class="w3-bar-item w3-button">LAND-CERTIFICATE</a>
+      <a href="FIRE-SAFETY-CERTIFICATE.pdf" class="w3-bar-item w3-button">Fire Safety Certificate</a>
+      <a href="DETAILS-OF-TEACHER-st xavier.pdf" class="w3-bar-item w3-button">Detail of Teachers</a>
+      <a href="DETAILS-OF-ROOM.pdf" class="w3-bar-item w3-button">Detail of Room</a>
+      <a href="academic-calender.pdf" class="w3-bar-item w3-button">Acadmic calender</a>
+      <a href="PTA" class="w3-bar-item w3-button">PTA Meet</a>
+      <a href="classwise-book-list.pdf" class="w3-bar-item w3-button">Class wise book list</a>
+      <a href="D.Ed.O-certificate.pdf" class="w3-bar-item w3-button">D.Ed.O-certificate</a>
+      <a href="List-of-Library-Book.pdf" class="w3-bar-item w3-button">List of Library Books</a>
+      <a href="Deed-Agriment.pdf" class="w3-bar-item w3-button">Deed Agriment</a>
+      <a href="Principal-Qualification-Certificate-with-Experience.pdf" class="w3-bar-item w3-button">Principal Qualification</a>
+    
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE<i class="fa fa-caret-down"></i></button>   
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="prospectus.pdf" class="w3-bar-item w3-button">School prospectus</a>
+        <a href="reg.html" class="w3-bar-item w3-button">Online Regestration</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+  <a href="priniceple.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Principal Massage</a>
+  <a href="prospectus.pdf" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">School prospectus</a>
+  <a href="admission.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Admission</a>
+  <a href="reg.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Online Regestration</a>
+  <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Acadmy</a>
+  <a href="message.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Message</a>
+  <a href="publicmandatary.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Public Mandatary Disclosur</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-10.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome to</h3>
+      <h1>St. Xavier's High School, Supaul</h1>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ff.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Big Area</h3>
+      <p><b>School</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>A new way to learn</h3>
+      <p><b>Educate your child with a new way.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-6.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Decsipline and Justice.</h3>
+      <p><b>we give children Decsipline and Justice</b></p>    
+    </div>
+  </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="tt.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Teachers</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="lib.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Library</b></p>    
+    </div>
+  </div>
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide"><b>Admission</b></h2>
+    <h2 class="w3-wide">Admission Procedure</h2>
+    <p class="w3-opacity"><b>School Visit:</b> Admission process starts with the parents and child visiting the school and liking the school after a detailed discussion with the admissions counselor and a guided tour of the school. The parent needs to give some basic information in the inquiry form at this stage so that the counselor can assist him/her better. It is advisable to visit the school during school hours (8.30 am to 3.30 pm Monday to Friday) to get a better sense of how well the school functions, how the learning happens and how happy the children look and how committed the teachers are. One could also chat with the parents of children studying in the school informally to get a parents perspective, we encourage you to do so and we would love to make the introductions. In fact, these are some of the things every parent should do at any school before deciding to admit their child.
+
+        Application & Registration Form: Once a child and parent decide to join the school an application needs to be filled up giving all the particulars of previous education, medical history, etc. The form can be obtained from school office by paying.
+        
+        Fitment Interaction: the Respective class teacher will assess the child for fitment (oral and activity-based) and assess if the child can attend the class as desired by parents. The likely outcomes of the fitment interactions are admission to the class as desired by parents, or admission to the desired class with a joint action plan between the teacher and parents to work on certain areas of improvement, or advise to the parents to admit the child in a lower class if the child does not match any of the learning outcomes required for the given class.
+        
+        Children coming from other states or overseas will not be evaluated on their second language. It is understood that a child joining in grade 6 could be at the learning level of a grade 1 or 2 as far as the second language goes as they wouldn't have been taught this in their previous school. If the child is good on other counts Manthan would admit him and put special efforts to bring him on par with his grade over the next one year.
+        
+        Admission: Once the parent and the school agree on the class the child will join and a joint action plan for furthering the child's education a formal meeting will be held between the parents and the Head of the Institution to admit the child. No child is rejected on the basis of their parent's education or standing.
+        
+        No requirement of TCs till class 1, only birth certificates will be checked. For class 1 upwards you should ideally carry the certificates and mark sheets issued by the previous school along with the birth certificate. Photographs of child and parents will be required too.<i>
+        </p>
+        <aside>
+            <div class="w3-rightContent">
+                <div class="w3-LinkBox">
+                     <h2> Rules &amp; Regulations</h2>
+                     <div class="w3-Box"><img src="rules-regulation.jpg" width="211" height="404"></div>
+                 </div>
+            </div>
+        </aside>
+        <!-- Footer -->
+<footer class="w3-container w3-padding-10 w3-center w3-opacity w3-light-grey w3-xsmall">
+  <a href="https://www.facebook.com/mailto.rahulanand" <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+   <p class="w3-medium">Designed by <a href="https://www.instagram.com/husaindanish488" target="_blank">Md Danish Husain</a></p>
+   <p class="w3-medium" class="w3-text-red">@copyright st.xaviers high school,supaul</p>
+ </footer>
+        <script>
+            // Automatic Slideshow - change image every 4 seconds
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 4000);    
+            }
+            
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+              var x = document.getElementById("navDemo");
+              if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+              } else { 
+                x.className = x.className.replace(" w3-show", "");
+              }
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            var modal = document.getElementById('ticketModal');
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+    </body>
+    </html>
