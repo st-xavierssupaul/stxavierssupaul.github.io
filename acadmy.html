@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>St.Xavier's High School, Supaul</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"><img src="st.png.jpg" class="w3-circle" alt="Alps" height="50" width="50" align="left"></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Acadmy</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="message">Message<i class="fa fa-caret-down"></i></button> 
+      <div class="w3-dropdown-content w3-bar-block w3-card-2">
+      <a href="priniceple.html" class="w3-bar-item w3-button">Principal Message</a>
+      <a href="message.html" class="w3-bar-item w3-button">Message</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">Public Manadatry Disclosure<i class="fa fa-caret-down"></i></button>   
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="SELF-CERTIFICATE-CBSE.pdf" class="w3-bar-item w3-button">SELF CERTIFICATE CBSE</a>
+      <a href="AFFIDAVIT.pdf" class="w3-bar-item w3-button">AFFILDAVIt</a>
+      <a href="Trust-Deed.pdf" class="w3-bar-item w3-button">Trust Deed</a>
+      <a href="NOC.pdf" class="w3-bar-item w3-button">NO OBJECTION CERTIFICATE</a>
+      <a href="affiliation-grant-letter.pdf" class="w3-bar-item w3-button">Grant Letter</a>
+      <a href="LAND-CERTIFICATE.pdf" class="w3-bar-item w3-button">LAND-CERTIFICATE</a>
+      <a href="FIRE-SAFETY-CERTIFICATE.pdf" class="w3-bar-item w3-button">Fire Safety Certificate</a>
+      <a href="DETAILS-OF-TEACHER-st xavier.pdf" class="w3-bar-item w3-button">Detail of Teachers</a>
+      <a href="DETAILS-OF-ROOM.pdf" class="w3-bar-item w3-button">Detail of Room</a>
+      <a href="academic-calender.pdf" class="w3-bar-item w3-button">Acadmic calender</a>
+      <a href="PTA" class="w3-bar-item w3-button">PTA Meet</a>
+      <a href="classwise-book-list.pdf" class="w3-bar-item w3-button">Class wise book list</a>
+      <a href="D.Ed.O-certificate.pdf" class="w3-bar-item w3-button">D.Ed.O-certificate</a>
+      <a href="List-of-Library-Book.pdf" class="w3-bar-item w3-button">List of Library Books</a>
+      <a href="Deed-Agriment.pdf" class="w3-bar-item w3-button">Deed Agriment</a>
+      <a href="Principal-Qualification-Certificate-with-Experience.pdf" class="w3-bar-item w3-button">Principal Qualification</a>
+    
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE<i class="fa fa-caret-down"></i></button>   
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="prospectus.pdf" class="w3-bar-item w3-button">School prospectus</a>
+        <a href="reg.html" class="w3-bar-item w3-button">Online Regestration</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+  <a href="priniceple.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Principal Massage</a>
+  <a href="prospectus.pdf" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">School prospectus</a>
+  <a href="admission.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Admission</a>
+  <a href="reg.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Online Regestration</a>
+  <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Acadmy</a>
+  <a href="message.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Message</a>
+  <a href="publicmandatary.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Public Mandatary Disclosur</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-10.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome to</h3>
+      <h1>St. Xavier's High School, Supaul</h1>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ff.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Big Area</h3>
+      <p><b>School</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>A new way to learn</h3>
+      <p><b>Educate your child with a new way.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-6.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Decsipline and Justice.</h3>
+      <p><b>we give children Decsipline and Justice</b></p>    
+    </div>
+  </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="tt.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Teachers</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="lib.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Library</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <b><h1 class="w3-wide">Curriculum</h1></b>
+    <h2 class="w3-wide">Preschool Curriculum</h2>
+
+    <p class="w3-opacity"><i> As children are born with natural curiosity & inquisitiveness so , it is very important to satisfy their needs and make the learning enjoyable, exciting and stress free.
+
+        Our school curriculum helps children to achieve their best; develop their talent, academically, creatively and socially. This system neither imposes upon the child nor does it abandon him in total free play. It provides a carefully planned & structured environment in which the child grows and learns in a natural way.
+      </i>  </p>
+
+    <!--the aims section-->
+    <b><h2 class="w3-wide">Our school curriculum is crafted in our ?Core value Circle?</h2></b>
+    <p class="w3-opacity"><i><ul>
+        <li>To introduce child to the joy of learning through companionship and recreational activities.</li>
+        <li>To stimulate and satisfy child?s curiosity and provide opportunity to discover and explore with hands on material.</li>
+        <li>To use a variety of media to explore their creativity and keep a steady beat and performing together.</li>
+        <li>To inculcate good habits, social manners and etiquettes among children.</li>
+        <li>To orient the child to develop self-confidence &amp; honesty.</li>
+        <li>To develop a partnership with parents and good relationship with the local community.</li>
+    </ul>
+      </i>  </p>
+      <p><h2>Primary &amp; Middle School Curriculum</h2></p>
+      <p>At Primary level (Class-I to V) we recognize the need for an individualised curriculum accordingly the activities are planned. Classrooms are designed and equipped with the latest gadgets like smart boards, projectors, etc. to make learning live, interesting and more effective. Students are expose to a wide range of latest teaching aids and the activities are planned to meet out the challenge of the primary years. we encourage students for activity- based teaching for each subject, experiential learning and co-curricular activities allowing each child the freedom to find his/her areas of strengths and interests.</p>
+      <p>The Middle School (Class VI to VIII) curriculum incorporates the emphasis on individual subjects as Science, Mathematics, Social Studies, English, etc. Collaborative learning is a regular feature at this stage, as children learn to work together, as well as independently.</p>
+     <p> <h2>Senior School Curriculum</h2></p>
+     <p>The knowledge and skills gained during the Middle School years equip students with a strong academic foundation and students at this stage can choose a set of subjects of their interest within the purview of the board of affiliation. Students in their Senior Secondary classes become more specialized in their academics, and focus on their eventual career choices. The school offers a range of specialized subject to equip students for higher education.</p>
+
+
+      <p><img src="rules-regulation.jpg"</p>
+      <!-- Footer -->
+<footer class="w3-container w3-padding-10 w3-center w3-opacity w3-light-grey w3-xsmall">
+  <a href="https://www.facebook.com/mailto.rahulanand" <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+   <p class="w3-medium">Designed by <a href="https://www.instagram.com/husaindanish488" target="_blank">Md Danish Husain</a></p>
+   <p class="w3-medium" class="w3-text-red">@copyright st.xaviers high school,supaul</p>
+ </footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
