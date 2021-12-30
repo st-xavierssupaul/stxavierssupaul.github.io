@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <title>St.Xavier's High School, Supaul</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {font-family: "Lato", sans-serif}
+  .mySlides {display: none}
+  </style>
+  <body>
+  
+  
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"><img src="st.png.jpg" class="w3-circle" alt="Alps" height="50" width="50" align="left"></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Acadmy</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="message">Message<i class="fa fa-caret-down"></i></button> 
+      <div class="w3-dropdown-content w3-bar-block w3-card-2">
+      <a href="priniceple.html" class="w3-bar-item w3-button">Principal Message</a>
+      <a href="message.html" class="w3-bar-item w3-button">Message</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">Public Manadatry Disclosure<i class="fa fa-caret-down"></i></button>   
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="SELF-CERTIFICATE-CBSE.pdf" class="w3-bar-item w3-button">SELF CERTIFICATE CBSE</a>
+      <a href="AFFIDAVIT.pdf" class="w3-bar-item w3-button">AFFILDAVIt</a>
+      <a href="Trust-Deed.pdf" class="w3-bar-item w3-button">Trust Deed</a>
+      <a href="NOC.pdf" class="w3-bar-item w3-button">NO OBJECTION CERTIFICATE</a>
+      <a href="affiliation-grant-letter.pdf" class="w3-bar-item w3-button">Grant Letter</a>
+      <a href="LAND-CERTIFICATE.pdf" class="w3-bar-item w3-button">LAND-CERTIFICATE</a>
+      <a href="FIRE-SAFETY-CERTIFICATE.pdf" class="w3-bar-item w3-button">Fire Safety Certificate</a>
+      <a href="DETAILS-OF-TEACHER-st xavier.pdf" class="w3-bar-item w3-button">Detail of Teachers</a>
+      <a href="DETAILS-OF-ROOM.pdf" class="w3-bar-item w3-button">Detail of Room</a>
+      <a href="academic-calender.pdf" class="w3-bar-item w3-button">Acadmic calender</a>
+      <a href="PTA" class="w3-bar-item w3-button">PTA Meet</a>
+      <a href="classwise-book-list.pdf" class="w3-bar-item w3-button">Class wise book list</a>
+      <a href="D.Ed.O-certificate.pdf" class="w3-bar-item w3-button">D.Ed.O-certificate</a>
+      <a href="List-of-Library-Book.pdf" class="w3-bar-item w3-button">List of Library Books</a>
+      <a href="Deed-Agriment.pdf" class="w3-bar-item w3-button">Deed Agriment</a>
+      <a href="Principal-Qualification-Certificate-with-Experience.pdf" class="w3-bar-item w3-button">Principal Qualification</a>
+    
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE<i class="fa fa-caret-down"></i></button>   
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="admission.html" class="w3-bar-item w3-button">Admission</a>
+        <a href="prospectus.pdf" class="w3-bar-item w3-button">School prospectus</a>
+        <a href="reg.html" class="w3-bar-item w3-button">Online Regestration</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="aboutschool.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+  <a href="priniceple.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Principal Massage</a>
+  <a href="prospectus.pdf" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">School prospectus</a>
+  <a href="admission.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Admission</a>
+  <a href="reg.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Online Regestration</a>
+  <a href="acadmy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Acadmy</a>
+  <a href="message.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Message</a>
+  <a href="publicmandatary.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Public Mandatary Disclosur</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-10.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome to</h3>
+      <h1>St. Xavier's High School, Supaul</h1>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ff.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Big Area</h3>
+      <p><b>School</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>A new way to learn</h3>
+      <p><b>Educate your child with a new way.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide-6.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3>Decsipline and Justice.</h3>
+      <p><b>we give children Decsipline and Justice</b></p>    
+    </div>
+  </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="tt.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Teachers</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="lib.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p><b>Library</b></p>    
+    </div>
+  </div>
+
+
+
+
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<b><h1 class="w3-text-green" align="center">Gallery</h1></b>
+
+<h4 align="center">Facilities we provide to the student.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ActivityRoom.jpeg">
+      <img src="ActivityRoom.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">ActivityRoom for Children</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Computer_lab.jpeg">
+      <img src="Computer_lab.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Computer Lab</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Badminton_court.jpeg">
+      <img src="Badminton_court.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Badminton Court</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="sci.jpg">
+      <img src="sci.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Science Lab</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="teachers.jpg">
+      <img src="teachers.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Our Exprienced Teacher</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Math_lab.jpeg">
+      <img src="Math_lab.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Math Lab</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Volleyball_court.jpeg">
+      <img src="Volleyball_court.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Volleyball Court</div>
+  </div>
+</div>
+
+</div>
+<h1 class="w3-text-yellow" align="center">Sports Week</h1>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s1.jpg">
+      <img src="s1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Sports Day winner Announcement</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s2.jpg">
+      <img src="s2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Reward Disturbution</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s3.jpg">
+      <img src="s4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">our cheif guest is present to Disturbution of rewards</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s5.jpg">
+      <img src="s5.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Kabbadi Team</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s6.jpg">
+      <img src="s6.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Winner!</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s7.jpg">
+      <img src="s7.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Class 9 winner students</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s8.jpg">
+      <img src="s8.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Winner of kho kho game</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s9.jpg">
+      <img src="s9.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Introduction of player to our cheif guest</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <b><h1><p style="padding: 6px;" align="center">These facilities we provide to the student to devlop there mind sharply and understandable.</p></h1></b>
+ <i><b><p align="center">Thanks!</p></b></i>
+</div>
+<script>
+  // Automatic Slideshow - change image every 4 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+  }
+  
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+<!-- Footer -->
+<footer class="w3-container w3-padding-10 w3-center w3-opacity w3-light-grey w3-xsmall">
+  <a href="https://www.facebook.com/mailto.rahulanand" <i class="fa fa-facebook-official w3-hover-opacity" class="w3-xlarge"></i></a>
+   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+   <p class="w3-medium">Designed by <a href="https://www.instagram.com/husaindanish488" target="_blank">Md Danish Husain</a></p>
+   <p class="w3-medium" class="w3-text-red">@copyright st.xaviers high school,supaul</p>
+ </footer>
+</body>
+</html>
+
+
